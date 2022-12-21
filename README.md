@@ -12,7 +12,7 @@ $ some-command |  groupie
 
 groupie does only one thing well. If you need sorted output pipe its output to `sort -n` or `sort -nr`.
 
-That's it.
+That's it. Yes, one can do `sort | uniq -c | sort -n`, but groupie is faster since you need one sort less.
 
 
 ## Building
